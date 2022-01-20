@@ -23,9 +23,7 @@ try:
     i = 0
     while i < len(my_list):
         if len(my_list) - i == 1: break  # для выхода из цикла с нечетным числом элементов списка
-        cache = my_list[i]  # запоминаем значение элемента списка, так как он поменяется на следующем шаге
-        my_list[i] = my_list[i+1]
-        my_list[i+1] = cache
+        my_list[i], my_list[i+1] = my_list[i+1], my_list[i]
         i += 2
 
 # Принтуем элементы списка для сравнения
