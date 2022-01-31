@@ -6,8 +6,16 @@ my_f = open(".\dberr.txt", "r")    # открываем файл на чтени
                             # my_f.readlines - это список типа ['lkjlk', 'owiuoiu', 'kjhkjh', ], где элементы - строки
                             # из файла
 
-print(len(my_f.readlines()))  # с помощью функции len() подсчитываем число элементов в списке
+print(f'Количество строк в фале: ', len(my_f.readlines()))  # с помощью функции len() подсчитываем число элементов в списке
 my_f.close()                   # закрываем файл
+my_f = open(".\dberr.txt", "r")
+file_lines = my_f.readlines()
+for line_num, line in enumerate(file_lines, 1):
+    print(f'Количество слов в строке {line_num}:', len(line.split()))
+
+my_f.close()                   # закрываем файл
+
+
 
 
 
