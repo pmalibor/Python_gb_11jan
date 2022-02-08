@@ -1,0 +1,9 @@
+Mathematics: 95(lec) 50(pr) 10(lab)
+Chemistry: 70(lec) -  30(lab)
+Biology: 45(lec) 25(pr) -
+Physics: 50(lec) 10(pr) 5(lab)
+
+
+
+
+
