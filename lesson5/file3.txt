@@ -1,0 +1,12 @@
+Petrov 34500
+Sidorov 19800
+Kamenev 23300
+Ivanov 15900
+Zuev 12600
+Firsov 80300
+Kirsanov 27800
+Samanov 20000
+Karmin	44900
+Vidov 19800
+Ladonov 37900
+Sannikov 19999
